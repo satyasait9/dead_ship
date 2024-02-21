@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using OpenLayers with Vite</title>
+    <style>
+        .head {
+            color: blue;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: darkgray;
+        }
+        .buttons-container {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 8px 16px;
+            border: none;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .button:hover {
+            background-color: grey;
+        }
+        #map {
+            width: 60vw;
+            height: 60vh;
+            border: 2px solid;
+            margin-top: 100px; /* Adjust the top margin as needed */
+            
+        }
+        .foot
+        {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width:60%;
+        }
+    </style>
+</head>
+<body>
+<header class="head">
+    <div class="buttons-container">
+      <input type="file" id="fileInput" style="display: none;" accept=".kmz">
+      <label for="fileInput" class="button">Add KMZ FILE</label>
+      <input type="file" id="csv_Input" style="display: none;" accept=".csv">
+      <label for="csv_Input" class="button">Add CSV FILE</label>
+        <button class="button">Add AIS</button>
+        <button class="button">Edit Data</button>
+        <button class="button">Measure Length</button>
+        <button class="button">Get Coordinates</button>
+        <button class="button">Correlate AIS</button>
+        <button class="button">Verify AIS</button>
+    </div>
+    <div class="logo">Your Logo Here</div>
+</header>
+<footer class="foot">
+    <div id="map"></div>
+</footer>
+<script type="module" src="./main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.6.1/jszip.min.js"></script>
+</body>
+</html>

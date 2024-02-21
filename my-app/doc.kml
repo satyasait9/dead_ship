@@ -1,0 +1,3271 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <ExtendedData>
+      <Data name="Satellite">
+        <value>RB1</value>
+      </Data>
+      <Data name="Sensor">
+        <value>SX</value>
+      </Data>
+      <Data name="StripID">
+        <value>33255</value>
+      </Data>
+      <Data name="SceneID">
+        <value>0</value>
+      </Data>
+      <Data name="OrbitID">
+        <value>20716</value>
+      </Data>
+      <Data name="DOI">
+        <value>{21-9-2023,23:54:59.116436999999998,utc}</value>
+      </Data>
+      <Data name="TopLeftX">
+        <value>48.4115</value>
+      </Data>
+      <Data name="TopLeftY">
+        <value>16.3141</value>
+      </Data>
+      <Data name="TopRightX">
+        <value>49.2143</value>
+      </Data>
+      <Data name="TopRightY">
+        <value>17.6845</value>
+      </Data>
+      <Data name="BotLeftX">
+        <value>57.3116</value>
+      </Data>
+      <Data name="BotLeftY">
+        <value>10.8627</value>
+      </Data>
+      <Data name="BotRightX">
+        <value>58.1919</value>
+      </Data>
+      <Data name="BotRightY">
+        <value>12.1792</value>
+      </Data>
+      <Data name="TotalNumShips">
+        <value>46</value>
+      </Data>
+    </ExtendedData>
+    <Placemark>
+      <name>33255_1629_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>7828</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>308</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>85.41</value>
+        </Data>
+        <Data name="Length_m">
+          <value>392.34</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>73.49</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:38.968938000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.6094,13.7581,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_1629_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_01629_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>13.7608</north>
+        <south>13.7554</south>
+        <east>53.6067</east>
+        <west>53.6122</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_6564_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>5592</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>488</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>74.43</value>
+        </Data>
+        <Data name="Length_m">
+          <value>239.97</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>237.70</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:28.633948000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.7494,14.7902,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_6564_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_06564_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.7929</north>
+        <south>14.7875</south>
+        <east>53.7467</east>
+        <west>53.7521</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_3542_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>11856</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1900</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>76.18</value>
+        </Data>
+        <Data name="Length_m">
+          <value>296.08</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>90.45</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:25.135922999999998,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.1349,14.4502,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_3542_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_03542_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.4529</north>
+        <south>14.4475</south>
+        <east>53.1322</east>
+        <west>53.1377</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_3558_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>11576</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>160</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>84.88</value>
+        </Data>
+        <Data name="Length_m">
+          <value>153.21</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>61.71</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:27.679929000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.2233,14.4004,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_3558_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_03558_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.4031</north>
+        <south>14.3977</south>
+        <east>53.2206</east>
+        <west>53.226</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_3542_2</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>13044</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2472</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>86.22</value>
+        </Data>
+        <Data name="Length_m">
+          <value>232.87</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>252.49</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:25.135922999999998,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.141,14.429,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_3542_2</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_03542_020725_21092023DIP_VV_00_000_DQ_ort2.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.4317</north>
+        <south>14.4263</south>
+        <east>53.1383</east>
+        <west>53.1437</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_4563_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>11712</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1420</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>91.75</value>
+        </Data>
+        <Data name="Length_m">
+          <value>332.66</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>267.37</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:28.474851000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.5351,14.421,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_4563_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_04563_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.4237</north>
+        <south>14.4183</south>
+        <east>53.5324</east>
+        <west>53.5378</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_0521_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>6676</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1064</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>86.89</value>
+        </Data>
+        <Data name="Length_m">
+          <value>223.42</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>82.79</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:21.796782000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.7996,14.0188,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_0521_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_00521_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.0216</north>
+        <south>14.0161</south>
+        <east>52.7969</east>
+        <west>52.8023</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_3526_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>21812</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1076</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>77.91</value>
+        </Data>
+        <Data name="Length_m">
+          <value>226.25</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>65.85</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:22.591918000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.9174,14.4363,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_3526_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_03526_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.439</north>
+        <south>14.4336</south>
+        <east>52.9147</east>
+        <west>52.9201</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_3534_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>10312</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2308</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>79.06</value>
+        </Data>
+        <Data name="Length_m">
+          <value>242.34</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>258.68</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:23.863921000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.0906,14.5,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_3534_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_03534_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.5027</north>
+        <south>14.4972</south>
+        <east>53.0879</east>
+        <west>53.0933</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_4523_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>19408</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>356</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>81.13</value>
+        </Data>
+        <Data name="Length_m">
+          <value>153.41</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>13.01</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:22.114836000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.1327,14.5528,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_4523_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_04523_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.5555</north>
+        <south>14.5501</south>
+        <east>53.13</east>
+        <west>53.1354</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_5423_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>1108</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2112</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>75.36</value>
+        </Data>
+        <Data name="Length_m">
+          <value>379.07</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>64.80</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:6.214873000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.4438,15.4473,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_5423_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_05423_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>15.45</north>
+        <south>15.4446</south>
+        <east>52.4411</east>
+        <west>52.4465</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_6804_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>972</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1180</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>78.16</value>
+        </Data>
+        <Data name="Length_m">
+          <value>222.01</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>102.09</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:57:6.794043000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          55.7304,13.6209,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_6804_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_06804_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>13.6237</north>
+        <south>13.6182</south>
+        <east>55.7277</east>
+        <west>55.7331</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_5751_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>11080</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>624</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>81.46</value>
+        </Data>
+        <Data name="Length_m">
+          <value>124.30</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>57.45</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:58.367001999999999,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          54.9901,13.7328,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_5751_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_05751_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>13.7355</north>
+        <south>13.7301</south>
+        <east>54.9874</east>
+        <west>54.9928</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_6636_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>20052</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>148</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>84.96</value>
+        </Data>
+        <Data name="Length_m">
+          <value>435.25</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>104.49</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:40.081977000000002,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          54.2209,14.2803,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_6636_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_06636_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.283</north>
+        <south>14.2776</south>
+        <east>54.2182</east>
+        <west>54.2236</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_1565_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>4540</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1128</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>76.16</value>
+        </Data>
+        <Data name="Length_m">
+          <value>601.00</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>294.86</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:28.792914000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.1371,14.0964,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_1565_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_01565_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.0991</north>
+        <south>14.0937</south>
+        <east>53.1344</east>
+        <west>53.1398</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_7904_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>4440</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2260</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>79.25</value>
+        </Data>
+        <Data name="Length_m">
+          <value>383.24</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>300.13</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:57:22.694006000000002,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          56.4861,13.2772,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_7904_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_07904_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>13.2799</north>
+        <south>13.2745</south>
+        <east>56.4834</east>
+        <west>56.4889</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_5719_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>16648</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2440</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>110.87</value>
+        </Data>
+        <Data name="Length_m">
+          <value>212.35</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>110.61</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:53.278990000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          54.7402,13.8061,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_5719_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_05719_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>13.8088</north>
+        <south>13.8034</south>
+        <east>54.7374</east>
+        <west>54.7429</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_51103_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>7008</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>172</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>66.89</value>
+        </Data>
+        <Data name="Length_m">
+          <value>119.74</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>353.23</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:57:54.335149000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          57.799,11.976,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_51103_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_051103_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>11.9787</north>
+        <south>11.9732</south>
+        <east>57.7963</east>
+        <west>57.8018</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_6652_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>3164</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>244</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>78.87</value>
+        </Data>
+        <Data name="Length_m">
+          <value>147.90</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>64.31</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:42.625982000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          54.4715,14.3808,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_6652_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_06652_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.3835</north>
+        <south>14.3781</south>
+        <east>54.4688</east>
+        <west>54.4742</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_0457_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>12216</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1684</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>82.81</value>
+        </Data>
+        <Data name="Length_m">
+          <value>208.81</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>52.40</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:11.620756000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.2605,14.2655,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_0457_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_00457_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.2682</north>
+        <south>14.2628</south>
+        <east>52.2578</east>
+        <west>52.2632</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_0457_2</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>15240</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1944</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>88.68</value>
+        </Data>
+        <Data name="Length_m">
+          <value>218.91</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>58.61</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:11.620756000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.247,14.2302,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_0457_2</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_00457_020725_21092023DIP_VV_00_000_DQ_ort2.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.2329</north>
+        <south>14.2275</south>
+        <east>52.2442</east>
+        <west>52.2497</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_0465_3</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>8300</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2524</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>26.58</value>
+        </Data>
+        <Data name="Length_m">
+          <value>164.39</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>80.56</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:12.892759000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.3717,14.2547,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_0465_3</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_00465_020725_21092023DIP_VV_00_000_DQ_ort3.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.2574</north>
+        <south>14.252</south>
+        <east>52.369</east>
+        <west>52.3745</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_0473_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>4068</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1016</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>69.23</value>
+        </Data>
+        <Data name="Length_m">
+          <value>259.96</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>60.17</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:14.164763000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.4275,14.2821,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_0473_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_00473_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.2848</north>
+        <south>14.2793</south>
+        <east>52.4248</east>
+        <west>52.4302</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_5599_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>14068</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2336</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>77.37</value>
+        </Data>
+        <Data name="Length_m">
+          <value>384.87</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>80.12</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:34.198943000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.79,14.4358,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_5599_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_05599_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.4385</north>
+        <south>14.433</south>
+        <east>53.7873</east>
+        <west>53.7928</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_5607_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>16148</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1608</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>68.37</value>
+        </Data>
+        <Data name="Length_m">
+          <value>330.88</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>91.84</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:35.470945000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.8215,14.3852,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_5607_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_05607_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.3879</north>
+        <south>14.3825</south>
+        <east>53.8188</east>
+        <west>53.8242</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_1509_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>18700</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1956</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>93.87</value>
+        </Data>
+        <Data name="Length_m">
+          <value>151.30</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>11.62</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:19.888891000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.6109,14.2111,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_1509_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_01509_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.2138</north>
+        <south>14.2084</south>
+        <east>52.6082</east>
+        <west>52.6136</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_4531_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>7668</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1212</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>36.75</value>
+        </Data>
+        <Data name="Length_m">
+          <value>181.57</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>204.04</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:23.386838999999998,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.2988,14.6257,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_4531_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_04531_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.6285</north>
+        <south>14.623</south>
+        <east>53.2961</east>
+        <west>53.3016</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_4523_2</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>11836</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2404</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>79.74</value>
+        </Data>
+        <Data name="Length_m">
+          <value>354.56</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>44.06</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:22.114836000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.2345,14.603,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_4523_2</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_04523_020725_21092023DIP_VV_00_000_DQ_ort2.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.6057</north>
+        <south>14.6003</south>
+        <east>53.2317</east>
+        <west>53.2372</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_3622_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>8412</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1932</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>81.21</value>
+        </Data>
+        <Data name="Length_m">
+          <value>202.90</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>296.21</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:37.855955000000002,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.8051,14.0898,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_3622_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_03622_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.0925</north>
+        <south>14.0871</south>
+        <east>53.8024</east>
+        <west>53.8078</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_7776_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>6476</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>68</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>83.18</value>
+        </Data>
+        <Data name="Length_m">
+          <value>461.40</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>102.73</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:57:2.341963000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          55.3956,13.9434,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_7776_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_07776_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>13.9461</north>
+        <south>13.9407</south>
+        <east>55.3929</east>
+        <west>55.3984</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_1685_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>10580</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1096</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>75.47</value>
+        </Data>
+        <Data name="Length_m">
+          <value>367.59</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>270.17</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:47.872962000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          54.06,13.4383,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_1685_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_01685_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>13.441</north>
+        <south>13.4356</south>
+        <east>54.0573</east>
+        <west>54.0627</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_3854_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>9896</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2116</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>84.84</value>
+        </Data>
+        <Data name="Length_m">
+          <value>682.21</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>300.51</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:57:14.744040000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          55.6556,12.9031,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_3854_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_03854_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>12.9058</north>
+        <south>12.9004</south>
+        <east>55.6529</east>
+        <west>55.6583</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_7832_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>4868</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1876</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>80.35</value>
+        </Data>
+        <Data name="Length_m">
+          <value>145.26</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>77.76</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:57:11.245977000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          55.8999,13.6474,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_7832_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_07832_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>13.6501</north>
+        <south>13.6447</south>
+        <east>55.8972</east>
+        <west>55.9026</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_0441_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>21024</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>252</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>67.27</value>
+        </Data>
+        <Data name="Length_m">
+          <value>43.54</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>31.96</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:9.076750000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.038,14.273,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_0441_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_00441_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.2757</north>
+        <south>14.2703</south>
+        <east>52.0353</east>
+        <west>52.0407</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_7624_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>4008</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1432</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>47.95</value>
+        </Data>
+        <Data name="Length_m">
+          <value>198.68</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>82.88</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:38.173903000000003,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          54.2234,14.7151,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_7624_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_07624_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.7178</north>
+        <south>14.7124</south>
+        <east>54.2207</east>
+        <west>54.2261</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_5695_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>17872</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2072</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>77.94</value>
+        </Data>
+        <Data name="Length_m">
+          <value>349.07</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>87.39</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:49.462980000000002,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          54.53,13.9194,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_5695_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_05695_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>13.9221</north>
+        <south>13.9167</south>
+        <east>54.5273</east>
+        <west>54.5327</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_0441_2</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>21508</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1284</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>68.55</value>
+        </Data>
+        <Data name="Length_m">
+          <value>271.96</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>206.23</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:9.076750000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.06,14.2528,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_0441_2</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_00441_020725_21092023DIP_VV_00_000_DQ_ort2.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.2556</north>
+        <south>14.2501</south>
+        <east>52.0573</east>
+        <west>52.0628</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_2850_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>18052</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1720</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>61.63</value>
+        </Data>
+        <Data name="Length_m">
+          <value>233.56</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>115.18</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:57:14.107839000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          55.5941,12.5916,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_2850_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_02850_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>12.5943</north>
+        <south>12.5889</south>
+        <east>55.5914</east>
+        <west>55.5968</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_5671_2</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>9876</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2448</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>102.63</value>
+        </Data>
+        <Data name="Length_m">
+          <value>103.47</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>343.82</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:45.646971000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          54.4023,14.1195,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_5671_2</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_05671_020725_21092023DIP_VV_00_000_DQ_ort2.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.1222</north>
+        <south>14.1167</south>
+        <east>54.3996</east>
+        <west>54.405</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_4435_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>9204</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2248</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>70.50</value>
+        </Data>
+        <Data name="Length_m">
+          <value>133.21</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>9.93</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:8.122801000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.5338,15.0662,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_4435_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_04435_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>15.069</north>
+        <south>15.0635</south>
+        <east>52.5311</east>
+        <west>52.5365</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_5687_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>12528</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>284</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>70.43</value>
+        </Data>
+        <Data name="Length_m">
+          <value>443.74</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>101.90</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:48.190978000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          54.4577,14.0449,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_5687_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_05687_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.0476</north>
+        <south>14.0422</south>
+        <east>54.455</east>
+        <west>54.4605</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_4659_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>11912</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>500</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>86.50</value>
+        </Data>
+        <Data name="Length_m">
+          <value>300.75</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>294.13</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:43.738889000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          54.2849,13.9544,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_4659_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_04659_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>13.9571</north>
+        <south>13.9516</south>
+        <east>54.2822</east>
+        <west>54.2876</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_1493_2</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>17092</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1260</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>75.07</value>
+        </Data>
+        <Data name="Length_m">
+          <value>225.48</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>75.27</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:17.344885000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.4744,14.317,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_1493_2</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_01493_020725_21092023DIP_VV_00_000_DQ_ort2.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.3197</north>
+        <south>14.3142</south>
+        <east>52.4717</east>
+        <west>52.4771</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_2514_2</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>8080</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2356</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>62.39</value>
+        </Data>
+        <Data name="Length_m">
+          <value>242.94</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>236.77</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:20.683713999999998,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.9871,14.3685,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_2514_2</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_02514_020725_21092023DIP_VV_00_000_DQ_ort2.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.3712</north>
+        <south>14.3658</south>
+        <east>52.9844</east>
+        <west>52.9898</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_5575_1</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>9028</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>2136</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>75.50</value>
+        </Data>
+        <Data name="Length_m">
+          <value>255.93</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>249.66</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:30.382933000000001,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          53.6261,14.6121,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_5575_1</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_05575_020725_21092023DIP_VV_00_000_DQ_ort1.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.6149</north>
+        <south>14.6094</south>
+        <east>53.6234</east>
+        <west>53.6288</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Placemark>
+      <name>33255_3526_2</name>
+      <ExtendedData>
+        <Data name="Xpos_slc">
+          <value>21776</value>
+        </Data>
+        <Data name="Ypos_slc">
+          <value>1184</value>
+        </Data>
+        <Data name="Area_overlap">
+          <value>33.33</value>
+        </Data>
+        <Data name="Length_m">
+          <value>27.57</value>
+        </Data>
+        <Data name="Heading_deg">
+          <value>325.48</value>
+        </Data>
+        <Data name="Time_Stamp">
+          <value>{21-9-2023,23:56:22.591918000000000,utc}</value>
+        </Data>
+        <Data name="AIS_Correlation">
+          <value>NA</value>
+        </Data>
+        <Data name="MMSI">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lon">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_Lat">
+          <value>NA</value>
+        </Data>
+        <Data name="SOG_Knots">
+          <value>NA</value>
+        </Data>
+        <Data name="COG_deg">
+          <value>NA</value>
+        </Data>
+        <Data name="AIS_UTC_Time">
+          <value>NA</value>
+        </Data>
+        <Data name="Distance_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Bearing_Error_per">
+          <value>NA</value>
+        </Data>
+        <Data name="Delta_Time_Sec">
+          <value>NA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          52.9203,14.435,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <GroundOverlay>
+      <name>33255_3526_2</name>
+      <Icon>
+        <href>RB1SX020716Sv033255_020725_21092023DIP_VV_DQ_Chip/RB1SX020716Sv033255_03526_020725_21092023DIP_VV_00_000_DQ_ort2.jpg</href>
+      </Icon>
+      <LatLonBox>
+        <north>14.4377</north>
+        <south>14.4323</south>
+        <east>52.9176</east>
+        <west>52.923</west>
+      </LatLonBox>
+    </GroundOverlay>
+  </Document>
+</kml>
