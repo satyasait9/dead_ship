@@ -95,132 +95,173 @@ def process_xml():
 def process_csv():
     global AIStime,gdf
     if request.method == 'POST':
-        print(request.data)
-        # data=io.BytesIO(request.data)
-        # data=pd.read_csv(data)
-        # print(data)
-        # data = json.loads(request.data)
-        # print(data)
-        # csv_data=json.loads(data["csvData"])
-        # print(csv_data)
-        # print(csv_data)
-        # csv_io = io.BytesIO(csv_data)
-        # csv_df = pd.read_csv(csv_io)
-        # xml_data=request.files.get('xmldata')
-        # print(xml_data)
-        # print(csv_df)
-        # output_folder=r"C:\Users\Training\Desktop\output"
-        # pair_line_out = output_folder + "\\" +"pair_line.shp"
-        # single_line_out = output_folder + "\\" +"single_line.shp"
-        # int_point_pair_out = output_folder + "\\" +"int_point_pair.shp"
-        # int_point_single_out = output_folder + "\\" + "int_point_single.shp"
-        # buffer_poly_out = output_folder + "\\" +  "buffer_poly.shp"
-        # csv_io = io.BytesIO(csv_data)
-        # csv_df = pd.read_csv(csv_io)
-        # # print(csv_df)
-        # pairs = csv_df[csv_df.duplicated(subset='ID_IMO',keep=False)]
-        # print(pairs)
-        # non_pairs = csv_df[~csv_df.duplicated(subset='ID_IMO',keep=False)]
-        # pairs.TIMESTAMP_SOURCE = pd.to_datetime(pairs.TIMESTAMP_SOURCE, format= "%d-%m-%Y %H:%M")
-        # grp = pairs.groupby('ID_IMO')
-        # imo = []
-        # geometry=[]
-        # geometry_line=[]
-        # for i in grp.ID_IMO:
-        #     a,b = grp.get_group(i[0]).index[:2]
-        #     t1 = pairs._get_value(a,'TIMESTAMP_SOURCE')
-        #     t2 = pairs._get_value(b,'TIMESTAMP_SOURCE')
-        #     if t1 < t2:
-        #         lat_start,long_start = pairs._get_value(a,'KINEMATIC_POS_LLA_LAT'), pairs._get_value(a,'KINEMATIC_POS_LLA_LON')
-        #         lat_end,long_end = pairs._get_value(b,'KINEMATIC_POS_LLA_LAT'), pairs._get_value(b,'KINEMATIC_POS_LLA_LON')
-        #         ratio = (AIStime -t1)/(t2-t1)
-                
-        #     elif t1 == t2:
-        #         ratio = 0
-        #     else:
-        #         lat_start,long_start = pairs._get_value(b,'KINEMATIC_POS_LLA_LAT'), pairs._get_value(b,'KINEMATIC_POS_LLA_LON')
-        #         lat_end,long_end = pairs._get_value(a,'KINEMATIC_POS_LLA_LAT'), pairs._get_value(a,'KINEMATIC_POS_LLA_LON')
-        #         ratio = (AIStime -t2)/(t1-t2)
-                
+        csv_data=request.data
+        csv_io = io.BytesIO(csv_data)
+        csv = pd.read_csv(csv_io)
+        # print(csv)
+        pairs = csv[csv.duplicated(subset="ID_IMO", keep=False)]
+        non_pairs = csv[~csv.duplicated(subset="ID_IMO", keep=False)]
+        pairs.TIMESTAMP_SOURCE = pd.to_datetime(pairs.TIMESTAMP_SOURCE, format="%d-%m-%Y %H:%M")
+        grp = pairs.groupby("ID_IMO")
+        imo = []
+        geometry = []
+        geometry_line = []
+        for i in grp.ID_IMO:
+            a, b = grp.get_group(i[0]).index[:2]
+            t1 = pairs._get_value(a, "TIMESTAMP_SOURCE")
+            t2 = pairs._get_value(b, "TIMESTAMP_SOURCE")
+            if t1 < t2:
+                lat_start, long_start = pairs._get_value(
+                    a, "KINEMATIC_POS_LLA_LAT"
+                ), pairs._get_value(a, "KINEMATIC_POS_LLA_LON")
+                lat_end, long_end = pairs._get_value(
+                    b, "KINEMATIC_POS_LLA_LAT"
+                ), pairs._get_value(b, "KINEMATIC_POS_LLA_LON")
+                ratio = (AIStime - t1) / (t2 - t1)
 
-        #     d, b = haversine(long_start,lat_start,long_end,lat_end)
-        #     d = d*ratio
+            elif t1 == t2:
+                ratio = 0
+            else:
+                lat_start, long_start = pairs._get_value(
+                    b, "KINEMATIC_POS_LLA_LAT"
+                ), pairs._get_value(b, "KINEMATIC_POS_LLA_LON")
+                lat_end, long_end = pairs._get_value(
+                    a, "KINEMATIC_POS_LLA_LAT"
+                ), pairs._get_value(a, "KINEMATIC_POS_LLA_LON")
+                ratio = (AIStime - t2) / (t1 - t2)
 
-        #     new = new_pt(lat_start,long_start, d,b)
-        #     imo.append(i[0])
-        #     geometry.append(Point(new.longitude, new.latitude))
-        #     geometry_line.append(LineString([(long_start, lat_start),(long_end, lat_end)]))
-            
-            
+            d, b = haversine(long_start, lat_start, long_end, lat_end)
+            d = d * ratio
 
-        # int_points_pair = gpd.GeoDataFrame(columns= ['IMO','geometry'],crs='EPSG:4326')
-        # int_points_pair.geometry = geometry
-        # int_points_pair.IMO = imo
+            new = new_pt(lat_start, long_start, d, b)
+            imo.append(i[0])
+            geometry.append(Point(new.longitude, new.latitude))
+            geometry_line.append(LineString([(long_start, lat_start), (long_end, lat_end)]))
+            # int_points.append(new_pt)
 
-        # pair_line = gpd.GeoDataFrame(columns= ['IMO','geometry'],crs='EPSG:4326')
-        # pair_line.geometry = geometry_line
-        # pair_line.IMO = imo
-        # #Exporting to shapefile
-        # int_points_pair.to_file(int_point_pair_out, driver='ESRI Shapefile')
-        # pair_line.to_file(pair_line_out, driver='ESRI Shapefile')
-        # non_pairs = non_pairs.dropna(subset= ['ID_IMO','KINEMATIC_POS_LLA_LAT','KINEMATIC_POS_LLA_LON','KINEMATIC_SPEED','KINEMATIC_HEADING_TRUE'])
-        # non_pairs.TIMESTAMP_SOURCE = pd.to_datetime(non_pairs.TIMESTAMP_SOURCE, format= "%d-%m-%Y %H:%M")
-        # geometry = []
-        # line_geometry = []
-        # imo = []
-        # for i in non_pairs.ID_IMO:
-        #     index = non_pairs[non_pairs['ID_IMO']==i].index[0]
-        #     t = non_pairs._get_value(index, 'TIMESTAMP_SOURCE')
-            
-            
-        #     if t < AIStime:
-        #         delta_time = AIStime - t
-        #         delta_time = delta_time.total_seconds()/3600
-        #         lat_start = non_pairs._get_value(index,'KINEMATIC_POS_LLA_LAT')
-        #         long_start = non_pairs._get_value(index,'KINEMATIC_POS_LLA_LON')
-        #         heading = non_pairs._get_value(index,'KINEMATIC_HEADING_TRUE')
-                
-        #     else:
-        #         delta_time = t - AIStime
-        #         delta_time = delta_time.total_seconds()/3600
-        #         lat_start = non_pairs._get_value(index,'KINEMATIC_POS_LLA_LON')
-        #         long_start = non_pairs._get_value(index,'KINEMATIC_POS_LLA_LAT')
-        #         heading = abs(non_pairs._get_value(index,'KINEMATIC_HEADING_TRUE') - 180)
-                
+        int_points_pair = gpd.GeoDataFrame(columns=["IMO", "geometry"], crs="EPSG:4326")
+        int_points_pair.geometry = geometry
+        int_points_pair.IMO = imo
 
-        #     heading = non_pairs._get_value(index,'KINEMATIC_HEADING_TRUE')
-        #     speed_km = non_pairs._get_value(index,'KINEMATIC_SPEED') * 1.852
-        #     distance = delta_time*speed_km
+        pair_line = gpd.GeoDataFrame(columns=["IMO", "geometry"], crs="EPSG:4326")
+        pair_line.geometry = geometry_line
+        pair_line.IMO = imo
 
-        #     int_pt = new_pt(lat_start,long_start,distance,heading) 
-        #     geometry.append(Point(int_pt.longitude, int_pt.latitude))
-        #     line_geometry.append(LineString([(long_start, lat_start),(int_pt.longitude, int_pt.latitude)]))
-        #     imo.append(i)
-            
-        # int_points_single = gpd.GeoDataFrame(columns= ['IMO','geometry'],crs='EPSG:4326')
-        # int_points_single.geometry = geometry
-        # int_points_single.IMO = imo
 
-        # single_line = gpd.GeoDataFrame(columns= ['IMO','geometry'],crs='EPSG:4326')
-        # single_line.geometry = line_geometry
-        # single_line.IMO = imo
-        # #Exporting to shapefile
-        # int_points_single.to_file(int_point_single_out, driver='ESRI Shapefile')
-        # single_line.to_file(single_line_out, driver='ESRI Shapefile')
-        # deg = meters_to_degrees(5000, 13.5)
-        # buffer_geom = int_points_pair.buffer(deg)
+        non_pairs = non_pairs.dropna(
+            subset=[
+                "ID_IMO",
+                "KINEMATIC_POS_LLA_LAT",
+                "KINEMATIC_POS_LLA_LON",
+                "KINEMATIC_SPEED",
+                "KINEMATIC_HEADING_TRUE",
+            ]
+        )
 
-        # buffer_geom.to_file(buffer_poly_out, driver="ESRI Shapefile")
-        # buffer_geom = int_points_single.buffer(deg)
+        non_pairs.TIMESTAMP_SOURCE = pd.to_datetime(non_pairs.TIMESTAMP_SOURCE, format="%d-%m-%Y %H:%M")
+        geometry = []
+        line_geometry = []
+        imo = []
+        for i in non_pairs.ID_IMO:
+            index = non_pairs[non_pairs["ID_IMO"] == i].index[0]
+            t = non_pairs._get_value(index, "TIMESTAMP_SOURCE")
 
-        # with zipfile.ZipFile(zip_file_path, 'w') as zipf:
-        #         for filename in [pair_line_out, single_line_out, int_point_pair_out, int_point_single_out, buffer_poly_out]:
-        #             zipf.write(filename, os.path.basename(filename))
+            if t < AIStime:
+                delta_time = AIStime - t
+                delta_time = delta_time.total_seconds() / 3600
+                lat_start = non_pairs._get_value(index, "KINEMATIC_POS_LLA_LAT")
+                long_start = non_pairs._get_value(index, "KINEMATIC_POS_LLA_LON")
+                heading = non_pairs._get_value(index, "KINEMATIC_HEADING_TRUE")
 
-        # # Send the zip file to the client
-        # return send_file(zip_file_path, as_attachment=True)
-        return "Success"
-    return jsonify({'error': 'Method not allowed'}), 405
+            else:
+                delta_time = t - AIStime
+                delta_time = delta_time.total_seconds() / 3600
+                lat_start = non_pairs._get_value(index, "KINEMATIC_POS_LLA_LON")
+                long_start = non_pairs._get_value(index, "KINEMATIC_POS_LLA_LAT")
+                heading = abs(non_pairs._get_value(index, "KINEMATIC_HEADING_TRUE") - 180)
+
+            heading = non_pairs._get_value(index, "KINEMATIC_HEADING_TRUE")
+            speed_km = non_pairs._get_value(index, "KINEMATIC_SPEED") * 1.852
+            distance = delta_time * speed_km
+
+            int_pt = new_pt(lat_start, long_start, distance, heading)
+            geometry.append(Point(int_pt.longitude, int_pt.latitude))
+            line_geometry.append(
+                LineString([(long_start, lat_start), (int_pt.longitude, int_pt.latitude)])
+            )
+            imo.append(i)
+
+        int_points_single = gpd.GeoDataFrame(columns=["IMO", "geometry"], crs="EPSG:4326")
+        int_points_single.geometry = geometry
+        int_points_single.IMO = imo
+
+        single_line = gpd.GeoDataFrame(columns=["IMO", "geometry"], crs="EPSG:4326")
+        single_line.geometry = line_geometry
+        single_line.IMO = imo
+        point=pd.concat([int_points_pair,int_points_single])
+        line=pd.concat([pair_line,single_line])
+        deg = meters_to_degrees(5000,13.5)
+        buffer_points = [int_points_pair,int_points_single]
+        buffer_imo = []
+        buffer_geom = []
+        for points in buffer_points:
+            for i in range(len(points.index)):
+                buffer_imo.append(int(points.IMO[i]))
+                points.geometry[i]
+                buffer_geom.append(points.geometry[i].buffer(deg))
+        
+        buffer = gpd.GeoDataFrame(columns= ['IMO','geometry'],crs='EPSG:4326')
+        buffer.geometry = buffer_geom
+        buffer.IMO = buffer_imo
+        output_folder = current_app.root_path+'/my-app'
+        os.makedirs(output_folder, exist_ok=True)
+        folder_name_point = "point"
+        folder_name_buffer = "Buffer"
+        folder_name_line="line"
+        # Combine the parent directory path and the folder name
+        folder_path_line= os.path.join(output_folder, folder_name_line)
+        folder_path_point= os.path.join(output_folder, folder_name_point)
+        folder_path_buffer= os.path.join(output_folder, folder_name_buffer)
+        # Create the folder if it doesn't exist
+        if not os.path.exists(folder_path_line):
+            os.makedirs(folder_path_line)
+        if not os.path.exists(folder_path_point):
+            os.makedirs(folder_path_point)
+        if not os.path.exists(folder_path_buffer):
+            os.makedirs(folder_path_buffer)
+        line_out = folder_path_line + "\\" + "line.shp"
+        point_out = folder_path_point + "\\" + "int_point.shp"
+        buffer_poly_out = folder_path_buffer + "\\" + "buffer_poly.shp"
+        point.to_file(point_out, driver="ESRI Shapefile")
+        line.to_file(line_out, driver="ESRI Shapefile")
+        buffer.to_file(buffer_poly_out,driver="ESRI Shapefile")
+        for root, dirs, files in os.walk(folder_path_point):
+            for file in files:
+                if file.endswith(".shp"):
+                    # Found a shapefile
+                    shapefile_path_point = os.path.join(root, file)
+                    gdf_point=gpd.read_file(shapefile_path_point)
+                    json_point=gdf_point.to_json()
+        for root, dirs, files in os.walk(folder_path_line):
+            for file in files:
+                if file.endswith(".shp"):
+                    # Found a shapefile
+                    shapefile_path_line = os.path.join(root, file)
+                    gdf_line=gpd.read_file(shapefile_path_line)
+                    json_line=gdf_line.to_json()
+        for root, dirs, files in os.walk(folder_path_buffer):
+            for file in files:
+                if file.endswith(".shp"):
+                    # Found a shapefile
+                    shapefile_path_buffer = os.path.join(root, file)
+                    gdf_buffer=gpd.read_file(shapefile_path_buffer)
+                    json_buffer=gdf_buffer.to_json()
+        combined_json = {
+        "point": json_point,
+        "line": json_line,
+        "buffer": json_buffer}
+    # Return the combined JSON object
+    return jsonify(combined_json)
 # to get distance and angle between two points.
 def haversine(lon1, lat1, lon2, lat2):
     """
