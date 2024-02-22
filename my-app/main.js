@@ -11,11 +11,11 @@ import { ImageStatic, OSM, Vector as VectorSource } from 'ol/source.js';
 import { Tile as TileLayer, Vector as VectorLayer } from 'ol/layer.js';
 import Static from 'ol/source/ImageStatic.js';
 import JSZip from 'jszip';
-// import JSZip from 'jszip';
+import DataTile from 'ol/DataTile';
 const zip = new JSZip();
 
-let main_kml=undefined
-let main_csv=undefined
+let main_kml = undefined
+let main_csv = undefined
 
 function getKMLData(buffer) {
     let kmlData;
@@ -23,7 +23,6 @@ function getKMLData(buffer) {
     const kmlFile = zip.file(/\.kml$/i)[0];
     if (kmlFile) {
         kmlData = kmlFile.asText();
-        // console.log(kmlData);
     }
     return kmlData;
 }
@@ -35,9 +34,9 @@ function getKMLImage(href) {
         const kmlFile = zip.file(href.slice(index + 1));
         console.log(kmlFile);
         if (kmlFile) {
-            
+
             return URL.createObjectURL(new Blob([kmlFile.asArrayBuffer()]));
-            
+
         }
     }
     console.log(href);
@@ -50,22 +49,20 @@ class KMZ extends KML {
         options.iconUrlFunction = getKMLImage;
         super(options);
     }
-    
+
     getType() {
         return 'arraybuffer';
     }
-    
+
     readFeature(source, options) {
         const kmlData = getKMLData(source);
         return super.readFeature(kmlData, options);
     }
-    
+
     readFeatures(source, options) {
         const kmlData = getKMLData(source);
         console.log(kmlData);
         parseKML(kmlData);
-        // kmlData.then(data => parseKML(data, event.file.name)).catch(error => console.error('Error parsing KML:', error));
-        
         return super.readFeatures(kmlData, options);
     }
 }
@@ -84,20 +81,10 @@ const map = new Map({
     }),
 });
 const csv_Input = document.getElementById('csv_Input');
-csv_Input.addEventListener('change',function(event)
-{
+csv_Input.addEventListener('change', function (event) {
     const files = event.target.files[0];
     console.log(files);
     sendDataToServer(files)
-    // const reader = new FileReader();
-
-    // reader.onload = function(event) {
-    //     const csvContent = event.target.result;
-    //     const blob = new Blob([csvContent], { type: 'text/csv' });
-    //     sendDataToServer(blob)
-    // }
-    // sendDataToServer(main_kml);
-    // sendcsvDataToServer(main_csv
 })
 fileInput.addEventListener('change', function (event) {
     const files = event.target.files;
@@ -118,14 +105,13 @@ fileInput.addEventListener('change', function (event) {
     }
 });
 function parseKML(kmlData) {
-    // console.log(kmlData);
     sendXmlDataToServer(kmlData)
-    main_kml=kmlData
+    main_kml = kmlData
     try {
         const parser = new DOMParser();
         const kmlDoc = parser.parseFromString(kmlData, 'text/xml');
         const groundOverlays = kmlDoc.querySelectorAll('GroundOverlay');
-        
+
         groundOverlays.forEach(groundOverlay => {
             const imageUrl = groundOverlay.querySelector('Icon href').textContent;
             const latLonBox = groundOverlay.querySelector('LatLonBox');
@@ -133,15 +119,15 @@ function parseKML(kmlData) {
             const south = parseFloat(latLonBox.querySelector('south').textContent);
             const east = parseFloat(latLonBox.querySelector('east').textContent);
             const west = parseFloat(latLonBox.querySelector('west').textContent);
-            
+
             addImageOverlayFromHref(imageUrl, west, south, east, north);
         });
-        
+
         const vectorSource = new VectorSource({
             features: new KML().readFeatures(kmlData, {
-            dataProjection: 'EPSG:4326',  // Projection of the KML data
-            featureProjection: 'EPSG:3857'  // Projection for the features
-          })
+                dataProjection: 'EPSG:4326',  // Projection of the KML data
+                featureProjection: 'EPSG:3857'  // Projection for the features
+            })
         });
         const vectorLayer = new VectorLayer({
             source: vectorSource
@@ -174,74 +160,83 @@ const sendXmlDataToServer = (file1) => {
             'Content-Type': 'application/xml'
         }
     })
-    .then(response => {
-        if (response.ok) {
-            return response.text(); // Assuming server responds with JSON
-        }
-        throw new Error('Failed to send KML data to server');
-    })
-    .then(data => {
-        console.log('Response from server:', data);
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
+        .then(response => {
+            if (response.ok) {
+                return response.text(); // Assuming server responds with JSON
+            }
+            throw new Error('Failed to send KML data to server');
+        })
+        .then(data => {
+            console.log('Response from server:', data);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
 };
 
-    
+
 function sendDataToServer(main_csv) {
     const formData = new FormData();
-    var post_data={}
+    var post_data = {}
     formData.append('csvData', main_csv);
-    formData.append('xmldata', main_kml);
+    // formData.append('xmldata', main_kml);
     formData.forEach(function (value, key) {
         post_data[key] = value;
-      });
-    console.log(post_data)
-    // console.log(main_csv);
+    });
     const headers = new Headers();
-    headers.append('Content-Type', 'text/csv','application/xml'); // for CSV
-    // console.log(formData)
+    headers.append('Content-Type', 'text/csv'); // for CSV
     fetch('http://127.0.0.1:5000/process_csv', {
         method: 'POST',
-        body: post_data,
-        headers:headers
+        body: main_csv,
+        headers: headers
     })
-    .then(response => {
-        if (response.ok) 
-        {
-            return response; // Assuming server responds with JSON
-        }
-        throw new Error('Failed to send data to server');
-    })
-    .then(data => {
-        console.log('Response from server:', data);
-    })
+        .then(response => {
+            if (response.ok) {
+                return response.json(); // Assuming server responds with JSON
+            }
+            throw new Error('Failed to send data to server');
+        })
+        .then(data => {
+            const { point, line, buffer } = data;
+
+            // Call functions to handle each JSON object as needed
+            overlayJson(point);
+            overlayJson(line);
+            overlayJson(buffer);
+        })
     .catch(error => {
         console.error('Error:', error);
     });
 }
-    
-
-
-    
+function overlayJson(featureData) {
+    console.log(featureData);
+    const vectorSourceJson = new VectorSource({
+        features: new GeoJSON().readFeatures(featureData, {
+            featureProjection: 'EPSG:3857' // Assuming your map is in EPSG:3857
+        })
+    });
+    const vectorLayer = new VectorLayer({
+        source: vectorSourceJson
+    });
+    map.addLayer(vectorLayer);
+    console.log("added successfully");
+}
 function sendForImages(file) {
 
     fetch('http://127.0.0.1:5000/images', {
         method: 'POST',
         body: file,
     })
-    .then(response => {
-        if (response.ok) 
-        {
-            return response; // Assuming server responds with JSON
-        }
-        throw new Error('Failed to send data to server');
-    })
-    .then(data => {
-        console.log('Response from server:', data);
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
+        .then(response => {
+            if (response.ok) {
+                return response; // Assuming server responds with JSON
+            }
+            throw new Error('Failed to send data to server');
+        })
+        .then(data => {
+            console.log('Response from server:', data[0]);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
 }
